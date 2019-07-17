@@ -22,7 +22,7 @@ fs.readdir('./cmds/',(err,files)=>{
 
 bot.on('ready', () => {
     console.log(`Запустился бот ${bot.user.username}`);
-    bot.user.setActivity("в Vlad mir Bot||vm!help", {type: "PLAYS"});
+    bot.user.setActivity("за Vlad mir Bot||vm!help", {type: "WATCHING"});
     bot.generateInvite(["ADMINISTRATOR"]).then(link =>{
         console.log(link);
     });
