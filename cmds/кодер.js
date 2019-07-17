@@ -9,6 +9,10 @@ module.exports.run = async (bot,message,args) => {
     .addField(`ВКонтакте`, `**https://vk.com/xdesh**\n`)
     .addField(`YouTuBe`, `**https://www.youtube.com/channel/UCrH-hu032UV6NvWWsraoTAA?view_as=subscriber**\n`)
     .addField(`Для заказа бота обрашайтесь сюда:`, `**https://vk.com/xdesh**`)
+    .addField(`Имя и Фамилия`, `**Женя Федоров**`)
+    .addField(`Тег в дискорде`, `**Desert_Gamer#2254**`)
+    .addField(`ВКонтакте`, `**Не известо**`)
+    .addField(`YouTube` `**Не известно**`)
     .addField(`Второстепенная информация`, `**Скоро на канале будет видео как он пишет комманду для меня**\n`)
     .setFooter(`Администрация бота Vlad mir!`, message.guild.iconURL);
     message.channel.send(embed);
