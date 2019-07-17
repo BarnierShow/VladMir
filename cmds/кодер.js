@@ -2,7 +2,6 @@ const discord = require("discord.js");
 const fs = require("fs");
 module.exports.run = async (bot,message,args) => {
     var embed = new discord.RichEmbed()
-    .setThumbnail(message.author.avatarURL)
     .setColor("#00FCFF")
     .setTitle(`Информация о создатели бота`)
     .addField(`Имя и Фамилия`, `**Эдуард Харин**`)
