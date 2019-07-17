@@ -13,7 +13,7 @@ module.exports.run = async (bot,message,args) => {
     .addField(`Имя и Фамилия`, `**Женя Федоров**`)
     .addField(`Тег в дискорде`, `**Desert_Gamer#2254**`)
     .addField(`ВКонтакте`, `**Не известо**`)
-    .addField(`YouTube` `**Не известно**`)
+    .addField(`YouTube`, `**Не известно**`)
     .addField(`Второстепенная информация`, `**Скоро на канале будет видео как он пишет комманду для меня**\n`)
     .setFooter(`Администрация бота Vlad mir!`, message.guild.iconURL);
     message.channel.send(embed);
