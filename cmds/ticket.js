@@ -3,6 +3,7 @@ const discord = require("discord.js");
 module.exports.run = async(bot, message, args) => {
     message.delete(5000);
     const categoryID = "600912145563254834";
+    const categoryIDL = "598377346529099777";
     var userName = message.author.username;
     var userDiscriminator = message.author.discriminator;
     var bool = false;
