@@ -22,7 +22,7 @@ fs.readdir('./cmds/',(err,files)=>{
 
 bot.on('ready', () => {
     console.log(`Запустился бот ${bot.user.username}`);
-    bot.user.setActivity("за база VimeWorld", {type: "WATCHING"});
+    bot.user.setActivity("БОТ СТОИТ НА ПРОДАЖЕ ⚠", {type: "WATCHING"});
     bot.generateInvite(["ADMINISTRATOR"]).then(link =>{
         console.log(link);
     });
@@ -91,4 +91,5 @@ bot.on('message', async message => {
     bot.rUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
     bot.uId = message.author.id;
 });
+
 bot.login(process.env.token);
