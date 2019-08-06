@@ -5,8 +5,8 @@ module.exports.run = async (bot,message,args) => {
     .setThumbnail(message.author.avatarURL)
     .setColor("#00FCFF")
     .setTitle(`Информация о коммандах`)
-    .addField(`Модерационные комманды`, `**vm!ban**\n**vm!kick**\n**vm!warn**\n**vm!unwarn**\n**vm!unban**\n**vm!mute**\n**vm!unmute**`)
-    .addField(`Развлекательные комманды`, `**vm!say**\n**vm!ping**\n**vm!serverinfo**\n**vm!userinfo**\n**vm!devolver**\n**vm!кодер**\n`)
+    .addField(`Модерационные комманды`, `**he!ban**\n**he!kick**\n**he!warn**\n**he!unwarn**\n**he!unban**\n**he!mute**\n**he!unmute**`)
+    .addField(`Развлекательные комманды`, `**he!say**\n**he!ping**\n**he!serverinfo**\n**he!userinfo**\n**he!кодер**\n**he!заказать**`)
     .setFooter(`Комманда по безопастности Discord Сервера!`, message.guild.iconURL);
     message.channel.send(embed);
 };
