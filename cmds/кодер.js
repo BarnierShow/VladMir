@@ -5,7 +5,7 @@ module.exports.run = async (bot,message,args) => {
     .setColor("#00FCFF")
     .setTitle(`Информация о создатели бота`)
     .addField(`Имя и Фамилия`, `**Неизвестно**`)
-    .addField(`Тег в дискорде`, `**Anonym#4704**\n`)
+    .addField(`Тег в дискорде`, `**lolka#4774**\n`)
     .addField(`ВКонтакте`, `**Неизвестно**\n`)
     .setTitle(`Дополнительная информация`)
     .addField(`Заказать бота можно здесь:`, `**https://vk.com/anonym.studio**\n`)
